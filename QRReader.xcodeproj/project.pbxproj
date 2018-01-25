@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8AD9239D2019F004005C9147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9239C2019F004005C9147 /* AppDelegate.swift */; };
-		8AD9239F2019F004005C9147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9239E2019F004005C9147 /* ViewController.swift */; };
+		8AD9239F2019F004005C9147 /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9239E2019F004005C9147 /* QRReaderViewController.swift */; };
 		8AD923A22019F004005C9147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD923A02019F004005C9147 /* Main.storyboard */; };
 		8AD923A42019F004005C9147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD923A32019F004005C9147 /* Assets.xcassets */; };
 		8AD923A72019F004005C9147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD923A52019F004005C9147 /* LaunchScreen.storyboard */; };
+		8AD923AF2019F05F005C9147 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD923AE2019F05F005C9147 /* CameraViewController.swift */; };
+		8AD923B12019F161005C9147 /* QRCreaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD923B02019F161005C9147 /* QRCreaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AD923992019F004005C9147 /* QRReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD9239C2019F004005C9147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AD9239E2019F004005C9147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AD9239E2019F004005C9147 /* QRReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
 		8AD923A12019F004005C9147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AD923A32019F004005C9147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AD923A62019F004005C9147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AD923A82019F004005C9147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD923AE2019F05F005C9147 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		8AD923B02019F161005C9147 /* QRCreaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCreaterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				8AD9239C2019F004005C9147 /* AppDelegate.swift */,
-				8AD9239E2019F004005C9147 /* ViewController.swift */,
+				8AD9239E2019F004005C9147 /* QRReaderViewController.swift */,
+				8AD923AE2019F05F005C9147 /* CameraViewController.swift */,
 				8AD923A02019F004005C9147 /* Main.storyboard */,
 				8AD923A32019F004005C9147 /* Assets.xcassets */,
 				8AD923A52019F004005C9147 /* LaunchScreen.storyboard */,
 				8AD923A82019F004005C9147 /* Info.plist */,
+				8AD923B02019F161005C9147 /* QRCreaterViewController.swift */,
 			);
 			path = QRReader;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AD9239F2019F004005C9147 /* ViewController.swift in Sources */,
+				8AD923B12019F161005C9147 /* QRCreaterViewController.swift in Sources */,
+				8AD9239F2019F004005C9147 /* QRReaderViewController.swift in Sources */,
 				8AD9239D2019F004005C9147 /* AppDelegate.swift in Sources */,
+				8AD923AF2019F05F005C9147 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
